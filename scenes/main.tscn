@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://h2sndoidhvlv"]
+[gd_scene load_steps=2 format=3 uid="uid://h2sndoidhvlv"]
+
+[ext_resource type="Script" path="res://scripts/label.gd" id="1_ndlfo"]
 
 [node name="Main" type="Node2D"]
 
@@ -9,3 +11,4 @@ theme_override_font_sizes/font_size = 128
 text = "meoww~ aaaa"
 horizontal_alignment = 1
 vertical_alignment = 1
+script = ExtResource("1_ndlfo")
